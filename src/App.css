@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif; /* Set a default font */
+  text-align: center; /* Center the content horizontally */
+  margin: 0 auto; /* Center the content horizontally within the viewport */
+  padding: 20px; /* Add some padding for better readability */
+}
+
+h1 {
+  margin-bottom: 20px; /* Add some space after the title */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow products to wrap on smaller screens */
+  justify-content: space-between; /* Distribute products evenly */
+  /* Adjust these values to control the number of products per row */
+  /* For example, max-width: 300px; would display 3 products per row */
+}
+
+.product {
+  width: 25%; /* Set product width (adjust based on desired layout) */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+  text-align: center; /* Center product content */
+}
+
+.product img {
+  width: 100%; /* Make image fill the product container width */
+}
+
+.product h2 {
+  margin-top: 10px; /* Add some space after the image */
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-weight: bold; /* Make price stand out a bit */
+}
